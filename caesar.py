@@ -14,7 +14,7 @@
   the letter is uppercase or lowercase. Non-alphabetic characters remain unchanged.
   """
 
-
+#OPTION1 - BASIC
 my_letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
 def encrypt(text, shiftnumber):
@@ -54,6 +54,8 @@ def decrypt(text, shiftnumber):
             decrypted_result += letter
 
     return decrypted_result
+  
+#OPTION2 - INTERMEDIATE
 
 def encryptascii(text, shiftnumber):
     # Variable to store the final encrypted result
@@ -102,6 +104,8 @@ def decryptascii(text, shiftnumber):
             decrypted_result += letter
 
     return decrypted_result
+
+#OPTION3 - ADVANCED
 
 def encryptupperlower(text, shiftnumber):
     # Variable to store the final encrypted result
