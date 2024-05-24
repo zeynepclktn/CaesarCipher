@@ -2,6 +2,7 @@
 # Caesar Cipher
 
 # Simple but Weak: Caesar Cipher Algorithm
+![Brown and Green Scrapbook Art History Presentation](https://github.com/zeynepclktn/CaesarCipher/assets/34071397/2fbe783f-a52d-4de9-9050-c7e4a0994026)
 
 This repository contains implementations of the Caesar Cipher algorithm in Python. The Caesar Cipher is a straightforward encryption technique, historically used by Julius Caesar, which shifts the letters in the plaintext by a fixed number of positions down the alphabet.
 
